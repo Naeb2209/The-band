@@ -39,6 +39,11 @@ html {
 .mt-16 {
     margin-top: 16px !important;
 }
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .col {
     float: left;
     padding-left: 8px;
@@ -61,8 +66,9 @@ html {
     color: white;
     background-color: black;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 16px;
     display: inline-block;
+    margin-top: 15px;
     border: none;
 }
 
@@ -270,14 +276,14 @@ html {
 }
 
 #content .members-list {
-    margin-top: 48px;
+    margin-top: 32px;
     overflow: hidden;
 }
 
 
 #content .member-avatar {
     margin-top: 15px;
-    width: 154px;
+    width: 80%;
     border-radius: 4px;
 }
 
@@ -366,16 +372,22 @@ html {
 }
 
 .contact-info {
-    font-size: 18px;
-}
-
-.contact-info {
     line-height: 1.5;
+    font-size: 18px;
 }
 
 .contact-info p i {
     width: 30px;
     display: inline-block;
+}
+
+.contact-info a {
+    color: #00e;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: 1;
 }
 
 .contact-form {

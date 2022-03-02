@@ -2,13 +2,52 @@
 /* REPONSIVE  */
 /* ---------- */
 
+/* Tablet & Mobile */
+@media (max-width:1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    
+    .form-control {
+        padding: 15px;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright {
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+   
+}
+
 /* Tablet */
 @media (max-width:1023px) and (min-width:740px) {
+    
     
 }
 
 /* Mobile */
 @media (max-width:739px) {
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
     #header .search-btn {
         display: none;
     }
@@ -43,9 +82,11 @@
     } 
 
     #nav .subnav li a {
-        padding: 5px 41px;
         color: white;
+        padding: 5px 41px;
     }
 
-   
+    .contact-form {
+        margin-top: 32px;
+    }
 }
